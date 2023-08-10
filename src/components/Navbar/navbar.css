@@ -1,0 +1,72 @@
+.restaurant__navbar{
+    width: 100%;
+
+    background-color: #000;
+    color: #fff;
+
+    padding: 30px 120px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 372.3px;
+
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
+
+.restaurant__navbar h1{
+    text-align: center;
+    font-family: Cormorant Upright;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 57.2px */
+    letter-spacing: 1.76px;
+    text-transform: uppercase;
+}
+
+.restaurant__navbar a{
+    color: var(--ffffff, #FFF);
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}
+
+.restaurant__navbar-navigation{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.restaurant__navbar-navigation a:hover{
+    color: #545454;
+}
+
+.restaurant__navbar-registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;    
+}
+
+.restaurant__navbar-registration a:hover{
+    border-bottom: #fff 1px solid;
+}
+
+.restaurant__navbar-registration_line{
+    background: var(--color-grey);
+    height: 30px;
+    width: 1px;
+}
