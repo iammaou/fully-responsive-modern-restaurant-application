@@ -7,9 +7,8 @@
     padding: 30px 120px;
 
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 372.3px;
 
     color: #FFF;
     font-family: Open Sans;
