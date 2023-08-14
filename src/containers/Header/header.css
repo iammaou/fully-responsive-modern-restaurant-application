@@ -1,0 +1,145 @@
+.restaurant__header{
+    display: flex;
+    gap: 180px;
+
+    background-color: #000;
+    color: #fff;
+
+    padding: 48px 310px 244px 310px;
+}
+
+.restaurant__header-content{
+    margin: auto;
+
+    width: 100%;
+}
+
+.restaurant__header-content h3{
+    color: var(--ffffff, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+
+    padding-bottom: 8px;
+}
+
+.restaurant__header-content img{
+    padding-bottom: 8px;
+}
+
+.restaurant__header-content h1{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 130%; /* 117px */
+    letter-spacing: 3.6px;
+
+    padding-bottom: 32px;
+}
+
+.restaurant__header-content p{
+    color: var(--aaaaaa, #AAA);
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+    padding-bottom: 32px;
+}
+
+.restaurant__header-content button{
+    display: flex;
+    padding: 8px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--dcca-87, #DCCA87);
+
+    color: #0C0B08;
+    /* Button */
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+
+    border: none;
+}
+
+.restaurant__header-img{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurant__header-img img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1560px) {
+    .restaurant__header{
+        flex-direction: column;
+
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 150px;
+
+        gap: 90px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .restaurant__header{
+        padding-left: 60px;
+        padding-right: 60px;
+
+        padding-bottom: 60px;
+    }
+    
+    .restaurant__header-content h3{
+        font-size: 18px;
+    }
+
+    .restaurant__header-content h1{
+        font-size: 55px;
+    }
+
+    .restaurant__header-content p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .restaurant__header{
+        padding: 10px 30px 30px 30px;
+        
+        gap: 30px;
+    }
+    
+    .restaurant__header-content h3{
+        font-size: 13px;
+    }
+
+    .restaurant__header-content img{
+        width: 12%;
+    }
+
+    .restaurant__header-content h1{
+        font-size: 40px;
+    }
+
+    .restaurant__header-content p{
+        font-size: 8px;
+    }
+
+    .restaurant__header-content button{
+        font-size: 10px;
+    }
+}

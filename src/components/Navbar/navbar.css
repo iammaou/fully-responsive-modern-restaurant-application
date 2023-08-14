@@ -102,7 +102,7 @@
     }
 
     .restaurant__navbar-navigation{
-        display:none;
+        display: none;
     }
 
     .restaurant__navbar-menu_container-links-sign{
@@ -141,5 +141,11 @@
 
     .restaurant__navbar h1{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .restaurant__navbar h1{
+        font-size: 20px;
     }
 }

@@ -2,3 +2,17 @@
   margin: 0;
   padding: 0;
 }
+
+.golden__text{
+  color: var(--dcca-87, #DCCA87);
+  font-family: Cormorant Upright;
+  text-transform: capitalize;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
