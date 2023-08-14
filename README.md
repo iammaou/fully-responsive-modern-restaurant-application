@@ -7,4 +7,6 @@ https://eat-at-gerich.netlify.app/
 
 I am doing this one alone with minimal help from the video, but that does not include the styling, if there is something I do not know how to style I will look it up in the video and will also note it below.
 
-Needed help with:
+Needed to learn how to:
+
+1.Style hamburger menu (https://www.youtube.com/watch?v=QQlxvj_GKss)
