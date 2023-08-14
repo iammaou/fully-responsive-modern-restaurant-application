@@ -10,3 +10,7 @@ I am doing this one alone with minimal help from the video, but that does not in
 Needed to learn how to:
 
 1.Style hamburger menu (https://www.youtube.com/watch?v=QQlxvj_GKss)
+
+Not working properly (ask the bois)
+
+-app__background in App.css

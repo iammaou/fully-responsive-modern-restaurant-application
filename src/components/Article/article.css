@@ -1,0 +1,52 @@
+.restaurant__article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant__article h1{
+    color: var(--dcca-87, #DCCA87);
+
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H2 64px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 83.2px */
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+
+    padding-bottom: 8px;
+}
+
+.restaurant__article p{
+    color: var(--aaaaaa, #AAA);
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.restaurant__article button{
+    background: var(--dcca-87, #DCCA87);
+    text-transform: capitalize;
+
+    border: none;
+
+    padding: 8px 32px;
+
+    color: var(--0-c-0-c-0-c, #0C0C0C);
+    /* Button */
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}

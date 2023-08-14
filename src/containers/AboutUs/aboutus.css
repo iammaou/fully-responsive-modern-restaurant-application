@@ -1,0 +1,38 @@
+.restaurant__about{
+    display: inline-flex;
+
+    padding: 100px;
+}
+
+.restaurant__about div{
+    margin:auto;
+}
+
+.restaurant__about-images{
+    width: 100%;
+
+    position: relative;
+    display: inline;
+}
+
+.knife-image{
+    position: absolute;
+    width: 20%;
+
+
+    left: 0px;
+}
+
+.background-letter{
+    /* position: absolute; */
+    width: 80%;
+}
+
+.restaurant__about-item_one{
+    padding-right: 85px;
+    text-align: right;
+}
+
+.restaurant__about-item_two{
+    padding-left: 85px;
+}
