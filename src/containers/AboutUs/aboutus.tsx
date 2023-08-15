@@ -20,8 +20,8 @@ const About = () => (
       <Article title={aboutData[0].title} text={aboutData[0].text}/>
     </div>
     <div className='restaurant__about-images'>
-      <img src='./assets/G.png' alt='g' className='background-letter'/>
-      <img src='./assets/knife.png' alt='knife' className='knife-image'/>
+      <p><img src='./assets/knife.png' alt='knife' className='knife-image'/></p>
+      {/* <p><img src='./assets/G.png' alt='G' className='letter-image'/></p> */}
     </div>
     <div className='restaurant__about-item_two'>
       <Article title={aboutData[1].title} text={aboutData[1].text}/>

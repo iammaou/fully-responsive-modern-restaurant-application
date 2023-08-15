@@ -9,30 +9,22 @@
 }
 
 .restaurant__about-images{
-    width: 100%;
+    width: 10%;
+}
 
-    position: relative;
-    display: inline;
+.restaurant__about-images p{
+    text-align: center;
 }
 
 .knife-image{
-    position: absolute;
-    width: 20%;
-
-
-    left: 0px;
-}
-
-.background-letter{
-    /* position: absolute; */
-    width: 80%;
+    width: 100%;
 }
 
 .restaurant__about-item_one{
-    padding-right: 85px;
+    padding-right: 50px;
     text-align: right;
 }
 
 .restaurant__about-item_two{
-    padding-left: 85px;
+    padding-left: 50px;
 }
