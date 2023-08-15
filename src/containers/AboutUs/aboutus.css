@@ -1,6 +1,6 @@
 .restaurant__about{
     display: inline-flex;
-
+    width: 100%;
     padding: 100px;
 }
 

@@ -1,0 +1,121 @@
+.app__menuitem{
+    padding-bottom: 40px;
+}
+
+.app__menuitem-content_main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    width: 412px;
+    padding-bottom: 8px;
+
+    /* justify-content: flex-end; */
+}
+
+.app__menuitem-content_main h3{
+    color: var(--dcca-87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H5 23px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+
+    grid-column-start: 1 / 1;
+}
+
+.app__menuitem-content_line{
+    width: 119px;
+    height: 1px;
+    background: var(--fafafa, #FAFAFA);
+
+    margin: auto;
+}
+
+.app__menuitem-content_main-price{
+    display: inline-flex;
+
+    grid-column-start: 2 / 1;
+}
+
+.app__menuitem-content_main h4{
+    color: var(--ffffff, #FFF);
+    /* text-align: center; */
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H5 23px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+.app__menuitem p{
+    color: var(--aaaaaa, #AAA);
+    /* text-align: center; */
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}
+
+@media screen and (max-width: 950px) {
+    .app__menuitem-content_main h3{
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+
+    .app__menuitem-content_main h4{
+        font-size: 19px;
+        letter-spacing: normal;
+    }
+    
+    .app__menuitem p{
+        font-size: 13px;
+        letter-spacing: normal;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .app__menuitem-content_main{
+        width: 280px;
+    }
+
+    .app__menuitem-content_main h3{
+        font-size: 18px;
+    }
+
+    .app__menuitem-content_main h4{
+        font-size: 16px;
+    }
+    
+    .app__menuitem p{
+        font-size: 12px;
+    }
+
+    .app__menuitem-content_line{
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .app__menuitem-content_main h3{
+        font-size: 16px;
+    }
+
+    .app__menuitem-content_main{
+        width: 240px;
+    }
+    
+    .app__menuitem p{
+        font-size: 10px;
+    }
+}
