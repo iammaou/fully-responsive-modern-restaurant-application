@@ -17,7 +17,7 @@
 }
 
 .knife-image{
-    width: 100%;
+    height: 910px;
 }
 
 .restaurant__about-item_one{
@@ -27,4 +27,39 @@
 
 .restaurant__about-item_two{
     padding-left: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+    .restaurant__about{
+        flex-direction: column;
+    }
+    .restaurant__about-item_one{
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+    
+    .restaurant__about-item_two{
+        padding-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .restaurant__about{
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .restaurant__about{
+        padding-left:30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .restaurant__about{
+        padding-left:15px;
+        padding-right: 15px;
+    }
 }

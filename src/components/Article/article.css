@@ -50,3 +50,28 @@
     line-height: 175%; /* 28px */
     letter-spacing: 0.64px;
 }
+
+@media screen and (max-width: 550px) {
+    .restaurant__article h1{
+      font-size: 55px;
+    }
+  
+    .restaurant__article p{
+      font-size: 10px;
+      letter-spacing: normal;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    .restaurant__article h1{
+      font-size: 40px;
+    }
+  
+    .restaurant__article p{
+      font-size: 8px;
+    }
+  
+    .restaurant__article button{
+      font-size: 10px;
+    }
+  }
