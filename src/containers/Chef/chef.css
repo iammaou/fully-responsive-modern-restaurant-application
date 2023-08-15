@@ -1,0 +1,226 @@
+.app__bg{
+    width: 100%;
+    padding: 96px 165px;
+    display: inline-flex;
+    gap: 96px;
+}
+
+.app__chef-img img{
+    width: 100%;
+}
+
+.app__chef-content{
+    margin: auto;
+}
+
+.app__chef-content h5{
+    color: var(--ffffff, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H5 23px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+
+    padding-bottom: 8px;
+}
+
+.app__chef-content h1{
+    color: var(--dcca-87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H2 64px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 83.2px */
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+
+    padding-top: 8px;
+    padding-bottom: 64px;
+}
+
+.app__chef-content_quote img{
+    float: left;
+    width: 47px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.app__chef-content p{
+    color: var(--aaaaaa, #AAA);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+
+    padding-bottom: 64px;
+}
+
+.app__chef-content h3{
+    color: var(--dcca-87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H4 32px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 41.6px */
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+
+    padding-bottom: 8px;
+}
+
+.app__chef-content h4{
+    color: var(--aaaaaa, #AAA);
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+
+    padding-bottom: 64px;
+}
+
+.app__chef-content_signature{
+    width: 30%;
+}
+
+@media screen and (max-width: 1460px) {
+    .app__chef-content h5{
+        font-size: 21px;
+    }
+    
+    .app__chef-content h1{
+        font-size: 58px;
+    }
+    
+    .app__chef-content p{
+        font-size: 14px;
+    }
+    
+    .app__chef-content h3{
+        font-size: 28px;
+    }
+    
+    .app__chef-content h4{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .app__bg{
+        flex-direction: column;
+    }
+
+    .app__chef-content h5{
+        font-size: 21px;
+    }
+    
+    .app__chef-content h1{
+        font-size: 58px;
+    }
+    
+    .app__chef-content p{
+        font-size: 14px;
+    }
+    
+    .app__chef-content h3{
+        font-size: 28px;
+    }
+    
+    .app__chef-content h4{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__bg{
+        padding: 70px 120px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .app__bg{
+        padding: 60px 80px;
+        gap: 48px;
+    }
+
+    .app__chef-content h5{
+        padding-bottom: 4px;
+    }
+
+    .app__chef-content h1{
+        padding-top: 4px;
+        padding-bottom: 32px;
+    }
+    
+    .app__chef-content p{
+        padding-bottom: 32px;
+    }
+
+    .app__chef-content h3{
+        padding-bottom: 4px;
+    }
+
+    .app__chef-content h4{
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .app__chef-content h5{
+        font-size: 18px;
+    }
+    
+    .app__chef-content h1{
+        font-size: 42px;
+    }
+    
+    .app__chef-content p{
+        font-size: 12px;
+    }
+    
+    .app__chef-content h3{
+        font-size: 24px;
+    }
+    
+    .app__chef-content h4{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__bg{
+        padding: 40px 30px;
+    }
+
+    .app__chef-content h5{
+        font-size: 16px;
+    }
+    
+    .app__chef-content h1{
+        font-size: 36px;
+    }
+    
+    .app__chef-content p{
+        font-size: 10px;
+    }
+    
+    .app__chef-content h3{
+        font-size: 20px;
+    }
+    
+    .app__chef-content h4{
+        font-size: 9px;
+    }
+}
