@@ -1,0 +1,109 @@
+.app__laurels{
+    width: 300px;
+    height: 94px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.app__laurels-img img{
+    width: 79px;
+    height: 79px;   
+}
+
+.app__laurels-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.app__laurels-content h1{
+    color: var(--dcca-87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H5 23px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+
+    padding-bottom: 8px;
+}
+
+.app__laurels-content p{
+    color: var(--aaaaaa, #AAA);
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}
+
+@media screen and (max-width:1250px) {
+    .app__laurels-content h1{
+        font-size: 21px;
+        letter-spacing: normal;
+    }
+    
+    .app__laurels-content p{
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .app__laurels{
+        width: auto;
+        height: auto;
+    }
+
+    .app__laurels-content h1{
+        font-size: 19px;
+    }
+    
+    .app__laurels-content p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .app__laurels{
+        gap: 20px;
+    }
+
+    .app__laurels-img img{
+        width: 60px;
+        height: 60px;   
+    }
+
+    .app__laurels-content h1{
+        font-size: 17px;
+    }
+    
+    .app__laurels-content p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .app__laurels{
+        gap: 10px;
+    }
+
+    .app__laurels-img img{
+        width: 45px;
+        height: 45px;   
+    }
+
+    .app__laurels-content h1{
+        font-size: 16px;
+    }
+    
+    .app__laurels-content p{
+        font-size: 9px;
+    }
+}

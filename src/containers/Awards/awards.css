@@ -1,0 +1,130 @@
+.app__awards{
+    padding: 128px 310px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 111px;
+}
+
+.app__awards-content h2{
+    color: var(--ffffff, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H5 23px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+
+    padding-bottom: 8px;
+}
+
+.app__awards-content h3{
+    color: var(--dcca-87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H2 64px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 83.2px */
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+
+    padding-top: 8px;
+    padding-bottom: 64px;
+}
+
+.app__awards-content_laurels{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.app__awards-content_laurels-content{
+    display: inline-flex;
+    gap: 32px;
+}
+
+.app__awards-img img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1750px) {
+    .app__awards{
+        padding: 128px 200px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .app__awards{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__awards{
+        padding:128px 156px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__awards{
+        padding: 128px 128px;
+    }
+
+    .app__awards-content h2{
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+    
+    .app__awards-content h3{
+        font-size: 48px;
+        letter-spacing: normal;
+    }
+
+    .app__awards-content_laurels{
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .app__awards-content_laurels-content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .app__awards{
+        padding: 64px;
+        gap: 60px;
+    }
+
+    .app__awards-content h2{
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    
+    .app__awards-content h3{
+        font-size: 32px;
+        letter-spacing: normal;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__awards{
+        padding: 32px;
+    }
+
+    .app__awards-content_main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__awards-content_main img{
+        width: 40px;
+    }
+}
