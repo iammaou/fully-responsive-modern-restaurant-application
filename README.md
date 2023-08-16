@@ -10,6 +10,7 @@ I am doing this one alone with minimal help from the video, but that does not in
 Needed to learn how to:
 
 1.Style hamburger menu (https://www.youtube.com/watch?v=QQlxvj_GKss)
+2.Video (never did this before) (had a lot of errors because im in ts but fixed all of them, doing this is easy :())
 
 Not working properly (ask the bois)
 

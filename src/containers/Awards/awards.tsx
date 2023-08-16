@@ -3,8 +3,8 @@ import React from 'react';
 import './awards.css';
 
 const awards = () => (
-  <div>
-    awards
+  <div className='app__awards app__bg'>
+    
   </div>
 );
 
