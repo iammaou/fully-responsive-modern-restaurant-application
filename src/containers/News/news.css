@@ -1,0 +1,179 @@
+.app__news{
+    width: 100%;
+    background: var(--0-c-0-c-0-c, #0C0C0C);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 64px;
+}
+
+.app__news h5{
+    color: var(--ffffff, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    /* H5 23px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+
+    padding-bottom: 8px;
+}
+
+.app__news h2{
+    color: var(--dcca-87, #DCCA87);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+
+    /* H2 64px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 83.2px */
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.app__news p{
+    color: #FFF;
+    text-align: center;
+
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+
+    padding-bottom: 64px;
+}
+
+.app__news input{
+    background-color: #000;
+    width: 80%;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid var(--f-5-efdb, #F5EFDB);
+
+    color: var(--aaaaaa, #AAA);
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H6 16px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+
+    padding-left: 15px;
+}
+
+.app__news button{
+    display: flex;
+    padding: 8px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background: var(--dcca-87, #DCCA87);
+    border: none;
+
+    color: var(--0-c-0-c-0-c, #0C0C0C);
+
+    /* Button */
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}
+
+.app__news-input{
+    width: 45%;
+    display: inline-flex;
+    gap: 32px;
+}
+
+@media screen and (max-width:800px) {
+    .app__news-input{
+        width: 80%;
+        gap: 0;
+    }
+
+    .app__news button{
+        padding: 4px 16px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .app__news input{
+        width: 100%;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .app__news-input{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .app__news{
+        padding: 32px;
+    }
+
+    .app__news h5{
+        font-size: 20px;
+    }
+
+    .app__news h2{
+        font-size: 50px;
+    }
+
+    .app__news p{
+        font-size: 14px;
+    }
+
+    .app__news button{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .app__news input{
+        font-size: 8px;
+    }
+
+    .app__news-input{
+        width: 50%;
+    }
+
+    .app__news{
+        padding: 32px;
+    }
+
+    .app__news h5{
+        font-size: 17px;
+    }
+
+    .app__news h2{
+        font-size: 32px;
+    }
+
+    .app__news p{
+        font-size: 9px;
+    }
+}
