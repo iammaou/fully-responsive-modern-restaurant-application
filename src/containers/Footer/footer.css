@@ -1,0 +1,151 @@
+.app__footer{
+    width: 100%;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 128px;
+}
+
+.copyright{
+    color: var(--aaaaaa, #AAA);
+    text-align: center;
+
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}
+
+.app__footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.app__footer-content_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__footer-content_main h1{
+    color: var(--dcca-87, #DCCA87);
+    text-align: center;
+    font-family: Cormorant Upright;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 83.2px */
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+
+    padding-bottom: 32px;
+}
+
+.app__footer-content_main p{
+    color: var(--ffffff, #FFF);
+    text-align: center;
+
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+
+    padding-bottom: 16px;
+}
+
+.app__footer-content_main img{
+    width: 40px;
+
+    padding-bottom: 16px;
+}
+
+.app__footer-content_main-links{
+    display: flex;
+    gap: 16px;
+}
+
+.app__footer-content_side{
+    text-align: center;
+    width: 100%;
+}
+
+.app__footer-content_side h4{
+    color: var(--f-5-efdb, #F5EFDB);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    /* H4 32px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 41.6px */
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+    padding-bottom: 24px;
+}
+
+.app__footer-content_side p, .app__footer-content_main-links h5{
+    color: var(--aaaaaa, #AAA);
+
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}
+
+@media screen and (max-width:1050px) {
+    .app__footer-content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .app__footer{
+        padding: 64px;
+    }
+
+    .app__footer h1{
+        font-size: 50px;
+    }
+
+    .app__footer h5{
+        font-size: 20px;
+    }
+    .app__footer p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .app__footer{
+        padding: 32px;
+    }
+
+    .app__footer h1{
+        font-size: 32px;
+    }
+
+    .app__footer h5{
+        font-size: 17px;
+    }
+
+    .app__footer p{
+        font-size: 9px;
+    }
+}
