@@ -1,17 +1,23 @@
-This project is part of a series of a youtube video (https://www.youtube.com/watch?v=F627pKNUCVQ&list=PLW7Mfx3Lcr2iB5L2JHMj7d1hEV9P8_t1U&index=1&t=12174s).
+# Important Date Countup
 
-Figma design:
-https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?node-id=0%3A363&mode=dev
-Live Website:
-https://eat-at-gerich.netlify.app/
+![Website](./docs/website.png)
 
-I am doing this one alone with minimal help from the video, but that does not include the styling, if there is something I do not know how to style I will look it up in the video and will also note it below.
+## Base Tech Stack:
 
-Needed to learn how to:
+- React
+- Docker
 
-1.Style hamburger menu (https://www.youtube.com/watch?v=QQlxvj_GKss)
-2.Video (never did this before) (had a lot of errors because im in ts but fixed all of them, doing this is easy :())
+## Requirements
 
-Not working properly (ask the bois)
+- Docker and Docker Compose or Docker Desktop
 
--app__background in App.css
+## How to run
+
+- Clone this repo
+- Run:
+
+```sh
+docker compose up -d
+```
+
+- Open up a browser and go to localhost:3000
